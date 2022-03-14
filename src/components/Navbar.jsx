@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState } from 'react';
 import {
   FaBars,
@@ -9,7 +10,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo.png';
+import logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#090100] text-gray-300'>
       <div>
-        <img src={Logo} alt='Logo Image' style={{ width: '50px' }} />
+        <img src={logo} alt='Logo Image' style={{ width: '50px' }} />
       </div>
 
       {/* menu */}

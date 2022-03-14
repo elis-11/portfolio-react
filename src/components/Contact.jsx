@@ -17,7 +17,7 @@ import '../styles/Contact.scss'
 const Contact = () => {
   return (
     <div name='contact' className='Contact'>
-        <div class="container">
+        <div className="container">
         <form method='POST' action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c">
             <div className='input'>
             <input className="cont-in" type="text" id="userName" minlength="1" placeholder="Name*" />
@@ -26,10 +26,11 @@ const Contact = () => {
             <input className="input--top" type="text" id="subject" minlength="1" placeholder="Subject (optional)" />
                     <input className="input--bottom" type="text" id="message" minlength="1" placeholder="Message*" />
                     <p className="mail">Or you can just mail me at~
-                    <a className="email" href="">eliza.arzanukaeva@gmail.com</a>
+                    <a className="email" href="eliza.arzanukaeva@gmail.com">eliza.arzanukaeva@gmail.com</a>
                     </p>
 
-                    <a className="btn btn1" href="#">Send</a>
+                    {/* <a className="btn" href="#">Send</a> */}
+                    <button>Send</button>
         </form>
     </div>
     </div>
