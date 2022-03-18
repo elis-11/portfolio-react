@@ -17,6 +17,7 @@ import "../styles/Contact.scss";
 const Contact = () => {
   return (
     <div name="contact" className="Contact">
+// {/* <div name='contact' className='w-full h-screen bg-[#1d1d1d] flex justify-center items-center p-4'> */}
       <div className="container">
         <form
           method="POST"

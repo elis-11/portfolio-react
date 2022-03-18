@@ -6,15 +6,16 @@
   justify-content: center;
   align-items: center;
   background-color: #1d1d1d;
+  width: fullscreen;
   .container {
     /* width: 100%; */
-    max-width: 60%;
+    // max-width: 60%;
     margin: 0 auto;
     padding: 0 15px;
 
     .contact--sub {
       border: #08fdd8 1px solid;
-      width: 80%;
+      // width: 80%;
       min-height: 50vh;
       text-align: center;
       margin: 20px;
